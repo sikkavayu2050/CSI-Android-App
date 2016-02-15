@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml:16:1-20:12
-	xmlns:android
-		ADDED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml:16:11-69
+ADDED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml:16:1-20:12
 	package
-		ADDED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml:17:11-48
-		INJECTED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml
-		INJECTED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml:17:11-48
+		INJECTED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml:16:11-69
 uses-sdk
-ADDED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml:18:5-42
+ADDED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml:18:5-42
 	android:targetSdkVersion
-		INJECTED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml
-		INJECTED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml:18:15-40
-		INJECTED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml
-		INJECTED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml:18:15-40
+		INJECTED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml
 application
-ADDED from /home/sikkavayu2050/Documents/CSI-Android-App-final-master/cardview/src/main/AndroidManifest.xml:19:5-20
+ADDED from C:\Users\Arpit\Documents\CSI-Android-App-final-master\cardview\src\main\AndroidManifest.xml:19:5-20
