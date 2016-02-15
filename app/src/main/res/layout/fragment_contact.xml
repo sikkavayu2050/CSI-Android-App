@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            style="@style/CardView">
+            <LinearLayout
+                style="@style/CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textAlignment="gravity"
+                    android:text="@string/contact_header"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/contact1"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textAlignment="gravity"
+                    android:text="Anish : +919582871770"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/contact2"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textAlignment="gravity"
+                    android:text="Vayu : +919818633396"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_below="@+id/cardView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <LinearLayout
+                style="@style/CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textAlignment="gravity"
+                    android:text="@string/rate_us"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="245dp"
+                    android:layout_height="55dp"
+                    android:numStars="5"
+                    android:rating="3"
+                    android:stepSize="1"
+                    android:layout_gravity="center"
+                    style="@android:style/Widget.Holo.Light.RatingBar" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_below="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            style="@style/CardView">
+            <LinearLayout
+                style="@style/CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:labelFor="@+id/feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textAlignment="gravity"
+                    android:text="@string/feedback"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+                <EditText
+                    android:id="@+id/feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/round_edit_text"
+                    android:inputType="textMultiLine|textAutoComplete"/>
+                <Button
+                    android:id="@+id/sendFeedback"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_feedback"
+                    android:textColor="@color/list_background_pressed"
+                    android:background="@drawable/round_button"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
